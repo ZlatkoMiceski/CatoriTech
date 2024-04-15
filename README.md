@@ -1,3 +1,29 @@
+Running npm install, and then npm run dev should do the trick
+
+Brief explanation:
+
+Under app folder, there are folders that contain components, api, store and pages.
+Page folders serve as a routes for those pages.
+
+I couldn`t find much need for usage for Redux toolkit, so I use it just for username, on already initialazed state.
+There is one component, Counter, that serves as a example on how to pass actions and change global state.
+Redux/toolkit is set up as it should be. 
+
+Links to dynamic pages are contained in the footer, which is located in Nav2.tsx component.
+pages are:
+/live
+/grid
+/faq
+/external
+/contact
+/casino
+
+I use ThemeProvider, and i used it in some of the components as an example
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
